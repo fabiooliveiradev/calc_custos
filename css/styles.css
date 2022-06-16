@@ -1,1 +1,24 @@
-/* Estilos *
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header{
+    text-align: center;
+}
+
+label{
+    margin-right: 10px;
+}
+
